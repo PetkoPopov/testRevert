@@ -11,7 +11,10 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "test Revert"
+        echo "test Revert";
+        $a = 345;
+        $x = 12;
+        echo $a + $x;
         ?>
     </body>
 </html>
